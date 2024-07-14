@@ -1,0 +1,71 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+body{
+    background-color: #f1f1f1 !important; 
+}
+.container {
+    max-width: 600px; /* Tamaño máximo del contenedor */
+    padding: 15px; /* Añadir padding */
+}
+
+/* Título de la Página */
+h1 {
+    font-size: 2rem; /* Tamaño del texto */
+    color: #333; /* Color del texto */
+    margin-bottom: 1.5rem; /* Espacio debajo del título */
+}
+
+/* Botón de "Volver a la Lista" */
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #fff;
+    margin-bottom: 1rem; /* Espacio debajo del botón */
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+/* Botón de "Crear Usuario" */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Estilo para los campos de entrada */
+.input-group-text {
+    background-color: #f8f9fa;
+}
+
+
+/* Ajustes para el formulario */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Espaciado en los campos del formulario */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.input-group-prepend {
+    margin-right: -1px;
+}
+
+.input-group-text {
+    border: 1px solid #ced4da;
+    border-radius: .25rem 0 0 .25rem;
+}
+
+.form-control {
+    border-radius: 0 .25rem .25rem 0;
+}
