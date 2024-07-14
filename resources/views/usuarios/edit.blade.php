@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html lang="es">
+@extends('layouts.app')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Editar Usuario - Mi Aplicación</title>
-    @vite('resources/css/app.css')
-   
-</head>
+@section('title', 'Editar Usuario')
 
-<body>
+@section('content')
     <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="">
@@ -57,7 +50,4 @@
         </div>
     </div>
     </div>
-    @vite('resources/js/app.js')
-</body>
-
-</html>
+    @endsection

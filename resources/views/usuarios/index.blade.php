@@ -71,7 +71,7 @@
             </table>
         </div>
         <div class="panel-footer text-center">
-            <strong>Mostrando {{ $usuarios->count() }} de {{ $usuarios->total() }} usuarios</strong>
+            <strong> Mostrando {{ $usuarios->firstItem() }} a {{ $usuarios->lastItem() }} de {{ $usuarios->total() }} usuarios</strong>
         </div>
         <div class="panel-footer text-center">
             {{ $usuarios->appends(request()->query())->links('pagination::bootstrap-3') }}

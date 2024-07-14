@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crear Usuario - Mi Aplicación</title>
-    @vite('resources/css/app.css')
-    <style>
-       
-    </style>
-</head>
-<body>
+@extends('layouts.app')
+
+@section('title', 'Crear Usuario')
+
+@section('content')
     <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="form-container">
@@ -45,6 +38,4 @@
             </div>
         </div>
     </div>
-    @vite('resources/js/app.js')
-</body>
-</html>
+    @endsection

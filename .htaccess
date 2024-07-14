@@ -1,0 +1,20 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+
+# Establece la versi√≥n de PHP a 8.1
+AddHandler application/x-httpd-php82 .php
+
+
+# Configuraci®Æn de PHP en .htaccess
+php_value memory_limit 512M
+php_value upload_max_filesize 50M
+php_value post_max_size 50M
+php_value max_execution_time 300
+php_value session.gc_maxlifetime 1440
+
+# Configurar errores de PHP
+php_flag display_errors On
+php_value error_reporting 32767
